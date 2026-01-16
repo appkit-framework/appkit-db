@@ -1,0 +1,15 @@
+{
+    "name": "appkit/db",
+    "type": "library",
+    "description": "Common database interface for the AppKit framework",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AppKit\\Database\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

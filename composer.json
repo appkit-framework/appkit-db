@@ -1,0 +1,18 @@
+{
+    "name": "appkit/db",
+    "type": "library",
+    "description": "SQL database client with pluggable drivers for the Appkit framework",
+    "license": "MIT",
+    "require": {
+        "appkit/client": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppKit\\Database\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
